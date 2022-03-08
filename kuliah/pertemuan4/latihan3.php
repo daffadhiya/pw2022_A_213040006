@@ -29,7 +29,7 @@ echo '<br>';
 echo '<hr>';
 
 //strtotime
-echo date ("l", strtotime ("22 okt 2021"));
+echo date ("l", strtotime ("04 okt 2021"));
 echo '<hr>';
 
 //MATH
