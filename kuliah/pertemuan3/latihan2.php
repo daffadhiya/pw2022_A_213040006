@@ -13,13 +13,13 @@ while ($s < 5) {
 $y = 0;
 do {
     echo "Do it";
+    echo '<br>';
     $y++;
 } while ($y < 5);
  //if,else if.else
  $t = 10;
  if ($t>5){
     echo 'lebih besar dari 5';
- 
     echo "<br>";
 }else if (5<$t){
     echo ' lebih kecil dari 5';
