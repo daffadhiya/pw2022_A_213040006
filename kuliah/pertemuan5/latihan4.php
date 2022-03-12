@@ -32,7 +32,7 @@ echo "<hr>";
 //for
 for ($k = 0; $k < count($bulan); $k++){
     echo $bulan[$k];
-    echo "<br>";
+    echo "<hr>";
 }
 for ($i = 0; $i < 7; $i++){
     echo $hari[$i];
