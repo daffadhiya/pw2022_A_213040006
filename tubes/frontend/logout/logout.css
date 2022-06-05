@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.logo {
+  color: #fff;
+  font-family: "poppins";
+  margin-left: 30px;
+}
+header {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(pexels-keira-burton-6146978.jpg);
+  background-position: bottom;
+  background-size: cover;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+.header-content {
+  font-family: "Poppins";
+  margin-bottom: 250px;
+  color: white;
+  text-align: center;
+}
+.header-content h2 {
+  font-size: 4vmin;
+}
+.line {
+  width: 150px;
+  height: 4px;
+  background: #f4dc15;
+  margin: 10px auto;
+  border-radius: 5px;
+}
+.header-content h1 {
+  font-size: 7vmin;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+.ctn {
+  padding: 8px 15px;
+  background: #f4dc15;
+  color: black;
+  font-weight: bold;
+  border-radius: 30px;
+  font-size: 15px;
+  text-decoration: none;
+}
+.menu-btn {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  width: 40px;
+  cursor: pointer;
+  display: none;
+}
