@@ -11,10 +11,9 @@ input[type="password"] {
 
 button {
   background-color: #f4dc15;
-  margin: 0 100px 0 100px;
   color: white;
   padding: 14px 20px;
-  margin: 10px 0;
+  margin: 10px 10px 10px -2px;
   border: none;
   cursor: pointer;
   width: 105%;
@@ -40,9 +39,9 @@ button:hover {
 }
 .container-fluid {
   padding: 16px;
-  margin: 30px 200px 0 150px;
-  align-items: center;
+  margin: 10px 123px 50px 165px;
 }
+
 span.psw {
   float: right;
   padding-top: 16px;
