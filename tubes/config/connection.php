@@ -1,9 +1,12 @@
 <?php
+require_once realpath(__DIR__ . '/../vendor/autoload.php');
+$dotenv = Dotenv\Dotenv::createImmutable(__DIR__ . '\../');
+$dotenv->load();
 
-$server   = "139.180.212.80";
-$username = "guest1";
-$password = "X@)#(dsjd903GWP213($*04";
-$database = "pw2022_a_213040006";
+$server   = $_ENV['DB_HOST'];
+$username = $_ENV['DB_USERNAME'];
+$password = $_ENV['DB_PASSWORD'];
+$database = $_ENV['DB_NAME'];
 
 $db = mysqli_connect($server, $username, $password, $database);
 
