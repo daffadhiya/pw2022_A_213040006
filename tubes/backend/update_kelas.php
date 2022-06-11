@@ -26,7 +26,7 @@ if (!empty($_FILES['image'])) {
   $query = "UPDATE kelas SET 
           nama= '$name', 
           tingkat_kelas_id= '$classLevel',
-          kategori_id= '$category'
+          kategori_id= '$category',
           tipe_membership_id= '$membership'
           WHERE id = '$id'";
   $result = mysqli_query($db, $query);

@@ -31,7 +31,7 @@ exit;
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="loginAdmin.css" />
-    <title>Document</title>
+    <title>Admin</title>
   </head>
   <body>
     
@@ -50,13 +50,15 @@ exit;
           required
         />
 
-        <button name="login" type="submit" style="color: black; font-weight:bold;">Login</button>
+        <button name="login" type="submit" style="color: black; font-weight:bold; font-size:15px;">Login</button>
       </div>
 
-      <div class="container-fluid" style="background-color: black">
-        <button type="button" class="cancelbtn" style="color: black; font-weight: bold; border-radius: 20px">Cancel</button>
-        <span class="psw" style="color: #f4dc15;">Forgot <a href="#" style="color: #ffffff; margin-right: 5px">password?</a></span>
-      </div>
+      <div
+      class="d-flex flex-column flex-md-row text-center text-md-start justify-content-between py-4 px-4 px-xl-5 bg-primary" style="font-family: 'poppins'; text-align:center; color:#f4dc15; margin-left:50px; font-size: 15px; background-color:black; width:100% px; height:50px; margin: 10px 123px 50px 165px; padding-top:10px; ;line-height:37px">
+    <!-- Copyright -->
+    <div class="text-white mb-3 mb-md-0">
+      <span style="color:white">ITD</span> © 2022. Sukses Bersama ITD.
+    </div>
     </form>
   </body>
 </html>
